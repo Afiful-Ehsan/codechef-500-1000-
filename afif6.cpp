@@ -1,0 +1,30 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int t;
+    cin>>t;
+    for(int i=1;i<=t;i++)
+    {
+     int a,b,c;
+     cin>>a>>b>>c;
+     if(a>b&&a>c)
+     {
+        cout<<a<<endl;
+     }
+     if(b>a&&b>c)
+     {
+        cout<<b<<endl;
+     }
+     else if(c>a&&c>b)
+     {
+        cout<<c<<endl;
+     }
+     else
+     {
+        cout<<a<<endl;
+     }
+    }
+     return 0;
+
+    }
